@@ -19,6 +19,9 @@ public class Variaveis {
 
     long populacaoPalmital=22000;
 
+    String nome;
+    nome="Luan da Etec Palmital,";
+    System.out.println("Meu nome é "+ nome + " tenho:"+ idade +" anos");
     System.out.println(idade);
     System.out.println(letra);
     System.out.println(vivo);

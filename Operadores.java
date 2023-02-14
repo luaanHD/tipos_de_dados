@@ -4,7 +4,7 @@ public class Operadores {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int idade=0;
-        int numero1;
+        int numero1; 
         int numero2;
         int soma;
         System.out.println("Digite sua idade");

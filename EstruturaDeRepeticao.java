@@ -28,7 +28,7 @@ public class EstruturaDeRepeticao {
     /* Exercício 4 */
     public static void main(String[] args) {
         int fatResult = 1;
-        for(int i=4;i>1;i--){
+        for(int i=10;i>=1;i--){
             if(i == 0){
                 fatResult = 1;
                 break;

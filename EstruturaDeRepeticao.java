@@ -28,7 +28,8 @@ public class EstruturaDeRepeticao {
     /* Exercício 4 */
     public static void main(String[] args) {
         int fatResult = 1;
-        for(int i=10;i>=1;i--){
+      for(int j=0;j<=10;j++){
+        for(int i=j;i>=1;i--){
             if(i == 0){
                 fatResult = 1;
                 break;
@@ -36,6 +37,11 @@ public class EstruturaDeRepeticao {
                 fatResult = i * fatResult;
             }
         }
-        System.out.println(fatResult);
+        //System.out.println(fatResult);
+        System.out.println("O fatorial de "+j +"="+fatResult);
+       
+        fatResult = 1;
     }
+    
+}
 }

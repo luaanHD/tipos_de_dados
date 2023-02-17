@@ -38,7 +38,7 @@ public class EstruturaDeRepeticao {
             }
         }
         //System.out.println(fatResult);
-        System.out.println("O fatorial de "+j +"="+fatResult);
+        System.out.println("A fatorial de "+j +" = "+fatResult);
        
         fatResult = 1;
     }

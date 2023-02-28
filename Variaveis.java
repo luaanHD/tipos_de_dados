@@ -1,9 +1,11 @@
+import java.util.Scanner;
+
 public class Variaveis {
     public static void main(String[] args) {
         
-    
-
     int idade=16;
+    String nome;
+    Scanner duda;
 
     char letra='M';
 
@@ -29,6 +31,6 @@ public class Variaveis {
     System.out.println(salario);
     System.out.println(salarioMenor);
     System.out.println(alunosPalmital);
-    System.out.println(populacaoPalmital);
+    System.out.println(populacaoPalmital); 
     }
 }
